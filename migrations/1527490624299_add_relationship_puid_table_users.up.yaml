@@ -1,0 +1,8 @@
+- args:
+    name: puid
+    table: users
+    using:
+      foreign_key_constraint_on:
+        column: userid
+        table: projects
+  type: create_array_relationship

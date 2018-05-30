@@ -1,0 +1,8 @@
+- args:
+    name: uid
+    table: users
+    using:
+      foreign_key_constraint_on:
+        column: userid
+        table: job
+  type: create_array_relationship

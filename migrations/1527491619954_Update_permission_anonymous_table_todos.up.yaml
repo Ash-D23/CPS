@@ -1,0 +1,9 @@
+- args:
+    permission:
+      columns:
+      - tid
+      - todo
+      filter: {}
+    role: anonymous
+    table: todos
+  type: create_update_permission

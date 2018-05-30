@@ -1,0 +1,6 @@
+- args:
+    permission:
+      filter: {}
+    role: anonymous
+    table: job
+  type: create_delete_permission

@@ -1,0 +1,3 @@
+- args:
+    sql: DROP TABLE "job"
+  type: run_sql

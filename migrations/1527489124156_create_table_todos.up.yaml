@@ -1,0 +1,7 @@
+- args:
+    sql: CREATE TABLE "todos"("tid" serial NOT NULL, "todo" text NOT NULL, PRIMARY
+      KEY ("tid") )
+  type: run_sql
+- args:
+    name: todos
+  type: add_existing_table_or_view

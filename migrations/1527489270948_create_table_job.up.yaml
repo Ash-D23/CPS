@@ -1,0 +1,7 @@
+- args:
+    sql: CREATE TABLE "job"("jid" serial NOT NULL, "jobname" text NOT NULL, "userid"
+      integer NOT NULL, "complete" boolean NOT NULL, PRIMARY KEY ("jid") )
+  type: run_sql
+- args:
+    name: job
+  type: add_existing_table_or_view

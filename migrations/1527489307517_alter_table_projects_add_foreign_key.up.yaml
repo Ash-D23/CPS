@@ -1,0 +1,3 @@
+- args:
+    sql: ALTER TABLE "projects" ADD FOREIGN KEY ("userid") REFERENCES "users" ("userid")
+  type: run_sql

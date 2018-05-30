@@ -1,0 +1,7 @@
+- args:
+    sql: CREATE TABLE "projects"("proid" serial NOT NULL, "project" text NOT NULL,
+      "userid" integer NOT NULL, PRIMARY KEY ("proid") )
+  type: run_sql
+- args:
+    name: projects
+  type: add_existing_table_or_view

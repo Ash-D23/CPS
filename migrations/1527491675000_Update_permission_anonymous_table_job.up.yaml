@@ -1,0 +1,15 @@
+- args:
+    role: anonymous
+    table: job
+  type: drop_select_permission
+- args:
+    permission:
+      columns:
+      - jid
+      - jobname
+      - userid
+      - complete
+      filter: {}
+    role: anonymous
+    table: job
+  type: create_select_permission

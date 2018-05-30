@@ -1,0 +1,14 @@
+- args:
+    role: anonymous
+    table: projects
+  type: drop_update_permission
+- args:
+    permission:
+      columns:
+      - proid
+      - project
+      - userid
+      filter: {}
+    role: anonymous
+    table: projects
+  type: create_update_permission
