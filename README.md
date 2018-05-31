@@ -8,6 +8,8 @@ CPS is a Command Line tool built to make collaboration easy and keep a track of 
 * Deployed with node server
 * CLI for collaboration 
 
+![CLI-Tool](https://github.com/Ash-D23/CPS/blob/master/readme-assets/2018-05-30.png) ![CLI-Tool](https://github.com/Ash-D23/CPS/blob/master/readme-assets/2018-05-30%20(1).png)
+
 ## Deployment instructions
 
 ### Basic deployment:
